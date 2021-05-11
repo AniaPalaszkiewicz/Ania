@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.edit {
+    height: 200px;
+    width: 360px;
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 5%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+button {
+    color:black;
+    height: 30px;
+    width: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 370px) {
+    .buttons{
+        flex-direction: column;
+    }
+    .edit {
+        width: 80%;
+        
+    }
+}
